@@ -8117,7 +8117,7 @@ footer {
 
 @font-face {
   font-family: 'Gobold';
-  src: url("/Gobold.ttf") format("truetype"), url("/Gobold.woff") format("woff"); }
+  src: url("/fonts/Gobold.ttf") format("truetype"), url("/fonts/Gobold.woff") format("woff"); }
 
 body {
   font-family: 'Gobold';
