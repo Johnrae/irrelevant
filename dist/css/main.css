@@ -8117,7 +8117,7 @@ footer {
 
 @font-face {
   font-family: 'Gobold';
-  src: url("../fonts/gobold.ttf"); }
+  src: url("/Gobold.ttf") format("truetype"), url("/Gobold.woff") format("woff"); }
 
 body {
   font-family: 'Gobold';
@@ -8181,6 +8181,7 @@ a:hover, a:active, a:hover:active, a:visited, a:focus {
     font-size: 4vw;
     padding: 10px 25px;
     background-color: #333;
+    color: #fff;
     margin: 0 auto; }
     @media (max-width: 767px) {
       #bands .band-list .band {
