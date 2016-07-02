@@ -8117,7 +8117,7 @@ footer {
 
 @font-face {
   font-family: 'Gobold';
-  src: url("/fonts/Gobold.ttf") format("truetype"), url("/fonts/Gobold.woff") format("woff"); }
+  src: url("../fonts/Gobold.ttf") format("truetype"), url("../fonts/Gobold.woff") format("woff"); }
 
 body {
   font-family: 'Gobold';
@@ -8166,17 +8166,11 @@ a:hover, a:active, a:hover:active, a:visited, a:focus {
     text-align: center; }
 
 #bands .band-list {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 0; }
   #bands .band-list li {
     margin: 70px auto;
     text-align: center; }
-    #bands .band-list li:before {
-      content: '';
-      display: block;
-      background-color: white;
-      transform: translate(-10px, -10px);
-      height: 100%;
-      width: 100%; }
   #bands .band-list .band {
     font-size: 4vw;
     padding: 10px 25px;
@@ -8188,7 +8182,7 @@ a:hover, a:active, a:hover:active, a:visited, a:focus {
         font-size: 50px; } }
     @media (max-width: 479px) {
       #bands .band-list .band {
-        font-size: 26px; } }
+        font-size: 20px; } }
     #bands .band-list .band:hover {
       background-color: white;
       color: #333; }
