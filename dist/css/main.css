@@ -8122,7 +8122,8 @@ footer {
 body {
   font-family: 'Gobold';
   text-transform: uppercase;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  background-color: #fff; }
 
 h1.banner {
   display: inline-block;
@@ -8151,6 +8152,7 @@ a:hover, a:active, a:hover:active, a:visited, a:focus {
   color: white; }
 
 .wrapper {
+  padding-top: 10px;
   min-height: 100px;
   clear: both;
   position: relative; }
@@ -8183,8 +8185,8 @@ a:hover, a:active, a:hover:active, a:visited, a:focus {
     @media (max-width: 479px) {
       #bands .band-list .band {
         font-size: 20px; } }
-    #bands .band-list .band:hover {
-      background-color: white;
+    #bands .band-list .band:hover, #bands .band-list .band:focus {
+      background-color: #e6e6e6;
       color: #333; }
   #bands .band-list #band1 {
     transform: rotate(1deg); }

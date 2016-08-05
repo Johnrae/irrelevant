@@ -33,6 +33,7 @@ body {
   font-family: 'Gobold';
   text-transform: uppercase;
   padding-bottom: 10px;
+  background-color: #fff;
 }
 
 h1 {
@@ -75,6 +76,7 @@ a {
 }
 
 .wrapper {
+  padding-top: 10px;
   min-height: 100px;
   clear: both;
   position: relative;
@@ -112,8 +114,8 @@ a {
       @include breakpoint(sm) {
         font-size: 20px;
       }
-      &:hover {
-        background-color: white;
+      &:hover, &:focus {
+        background-color: #e6e6e6;
         color: #333;
       }
     }
