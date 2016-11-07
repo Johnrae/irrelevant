@@ -8191,7 +8191,7 @@ a:hover, a:active, a:hover:active, a:visited, a:focus {
   #bands .band-list #band1 {
     transform: rotate(1deg); }
   #bands .band-list #band2 {
-    transform: rotate(6.66deg); }
+    transform: rotate(4.44deg); }
   #bands .band-list #band3 {
     transform: rotate(-4deg); }
   #bands .band-list #band4 {
@@ -8200,5 +8200,9 @@ a:hover, a:active, a:hover:active, a:visited, a:focus {
     transform: rotate(-3deg); }
   #bands .band-list #band6 {
     transform: rotate(3.5deg); }
+  #bands .band-list #band7 {
+    transform: rotate(-1.55deg); }
+  #bands .band-list #band8 {
+    transform: rotate(2.44deg); }
 
 /*# sourceMappingURL=main.css.map */
